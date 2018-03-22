@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09445CD82063526E005031DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09445CD72063526E005031DC /* AppDelegate.m */; };
+		09445CDB2063526E005031DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09445CDA2063526E005031DC /* ViewController.m */; };
+		09445CDE2063526E005031DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09445CDC2063526E005031DC /* Main.storyboard */; };
+		09445CE02063526E005031DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09445CDF2063526E005031DC /* Assets.xcassets */; };
+		09445CE32063526E005031DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09445CE12063526E005031DC /* LaunchScreen.storyboard */; };
+		09445CE62063526E005031DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09445CE52063526E005031DC /* main.m */; };
+		09445CF02063526E005031DC /* QBRroQuickStartProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09445CEF2063526E005031DC /* QBRroQuickStartProjectTests.m */; };
+		09445CFB2063526E005031DC /* QBRroQuickStartProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09445CFA2063526E005031DC /* QBRroQuickStartProjectUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09445CEC2063526E005031DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09445CCB2063526D005031DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09445CD22063526E005031DC;
+			remoteInfo = QBRroQuickStartProject;
+		};
+		09445CF72063526E005031DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09445CCB2063526D005031DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09445CD22063526E005031DC;
+			remoteInfo = QBRroQuickStartProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09445CD32063526E005031DC /* QBRroQuickStartProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QBRroQuickStartProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09445CD62063526E005031DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		09445CD72063526E005031DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		09445CD92063526E005031DC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		09445CDA2063526E005031DC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		09445CDD2063526E005031DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09445CDF2063526E005031DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09445CE22063526E005031DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09445CE42063526E005031DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09445CE52063526E005031DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09445CEB2063526E005031DC /* QBRroQuickStartProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QBRroQuickStartProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09445CEF2063526E005031DC /* QBRroQuickStartProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QBRroQuickStartProjectTests.m; sourceTree = "<group>"; };
+		09445CF12063526E005031DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09445CF62063526E005031DC /* QBRroQuickStartProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QBRroQuickStartProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09445CFA2063526E005031DC /* QBRroQuickStartProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QBRroQuickStartProjectUITests.m; sourceTree = "<group>"; };
+		09445CFC2063526E005031DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09445CD02063526E005031DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09445CE82063526E005031DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09445CF32063526E005031DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09445CCA2063526D005031DC = {
+			isa = PBXGroup;
+			children = (
+				09445CD52063526E005031DC /* QBRroQuickStartProject */,
+				09445CEE2063526E005031DC /* QBRroQuickStartProjectTests */,
+				09445CF92063526E005031DC /* QBRroQuickStartProjectUITests */,
+				09445CD42063526E005031DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09445CD42063526E005031DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09445CD32063526E005031DC /* QBRroQuickStartProject.app */,
+				09445CEB2063526E005031DC /* QBRroQuickStartProjectTests.xctest */,
+				09445CF62063526E005031DC /* QBRroQuickStartProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09445CD52063526E005031DC /* QBRroQuickStartProject */ = {
+			isa = PBXGroup;
+			children = (
+				09445CD62063526E005031DC /* AppDelegate.h */,
+				09445CD72063526E005031DC /* AppDelegate.m */,
+				09445CD92063526E005031DC /* ViewController.h */,
+				09445CDA2063526E005031DC /* ViewController.m */,
+				09445CDC2063526E005031DC /* Main.storyboard */,
+				09445CDF2063526E005031DC /* Assets.xcassets */,
+				09445CE12063526E005031DC /* LaunchScreen.storyboard */,
+				09445CE42063526E005031DC /* Info.plist */,
+				09445CE52063526E005031DC /* main.m */,
+			);
+			path = QBRroQuickStartProject;
+			sourceTree = "<group>";
+		};
+		09445CEE2063526E005031DC /* QBRroQuickStartProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				09445CEF2063526E005031DC /* QBRroQuickStartProjectTests.m */,
+				09445CF12063526E005031DC /* Info.plist */,
+			);
+			path = QBRroQuickStartProjectTests;
+			sourceTree = "<group>";
+		};
+		09445CF92063526E005031DC /* QBRroQuickStartProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				09445CFA2063526E005031DC /* QBRroQuickStartProjectUITests.m */,
+				09445CFC2063526E005031DC /* Info.plist */,
+			);
+			path = QBRroQuickStartProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09445CD22063526E005031DC /* QBRroQuickStartProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09445CFF2063526E005031DC /* Build configuration list for PBXNativeTarget "QBRroQuickStartProject" */;
+			buildPhases = (
+				09445CCF2063526E005031DC /* Sources */,
+				09445CD02063526E005031DC /* Frameworks */,
+				09445CD12063526E005031DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QBRroQuickStartProject;
+			productName = QBRroQuickStartProject;
+			productReference = 09445CD32063526E005031DC /* QBRroQuickStartProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09445CEA2063526E005031DC /* QBRroQuickStartProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09445D022063526E005031DC /* Build configuration list for PBXNativeTarget "QBRroQuickStartProjectTests" */;
+			buildPhases = (
+				09445CE72063526E005031DC /* Sources */,
+				09445CE82063526E005031DC /* Frameworks */,
+				09445CE92063526E005031DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09445CED2063526E005031DC /* PBXTargetDependency */,
+			);
+			name = QBRroQuickStartProjectTests;
+			productName = QBRroQuickStartProjectTests;
+			productReference = 09445CEB2063526E005031DC /* QBRroQuickStartProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		09445CF52063526E005031DC /* QBRroQuickStartProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09445D052063526E005031DC /* Build configuration list for PBXNativeTarget "QBRroQuickStartProjectUITests" */;
+			buildPhases = (
+				09445CF22063526E005031DC /* Sources */,
+				09445CF32063526E005031DC /* Frameworks */,
+				09445CF42063526E005031DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09445CF82063526E005031DC /* PBXTargetDependency */,
+			);
+			name = QBRroQuickStartProjectUITests;
+			productName = QBRroQuickStartProjectUITests;
+			productReference = 09445CF62063526E005031DC /* QBRroQuickStartProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09445CCB2063526D005031DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "HongDi Huang";
+				TargetAttributes = {
+					09445CD22063526E005031DC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					09445CEA2063526E005031DC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 09445CD22063526E005031DC;
+					};
+					09445CF52063526E005031DC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 09445CD22063526E005031DC;
+					};
+				};
+			};
+			buildConfigurationList = 09445CCE2063526D005031DC /* Build configuration list for PBXProject "QBRroQuickStartProject" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09445CCA2063526D005031DC;
+			productRefGroup = 09445CD42063526E005031DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09445CD22063526E005031DC /* QBRroQuickStartProject */,
+				09445CEA2063526E005031DC /* QBRroQuickStartProjectTests */,
+				09445CF52063526E005031DC /* QBRroQuickStartProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09445CD12063526E005031DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09445CE32063526E005031DC /* LaunchScreen.storyboard in Resources */,
+				09445CE02063526E005031DC /* Assets.xcassets in Resources */,
+				09445CDE2063526E005031DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09445CE92063526E005031DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09445CF42063526E005031DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09445CCF2063526E005031DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09445CDB2063526E005031DC /* ViewController.m in Sources */,
+				09445CE62063526E005031DC /* main.m in Sources */,
+				09445CD82063526E005031DC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09445CE72063526E005031DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09445CF02063526E005031DC /* QBRroQuickStartProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09445CF22063526E005031DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09445CFB2063526E005031DC /* QBRroQuickStartProjectUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09445CED2063526E005031DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09445CD22063526E005031DC /* QBRroQuickStartProject */;
+			targetProxy = 09445CEC2063526E005031DC /* PBXContainerItemProxy */;
+		};
+		09445CF82063526E005031DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09445CD22063526E005031DC /* QBRroQuickStartProject */;
+			targetProxy = 09445CF72063526E005031DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		09445CDC2063526E005031DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09445CDD2063526E005031DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09445CE12063526E005031DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09445CE22063526E005031DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09445CFD2063526E005031DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		09445CFE2063526E005031DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09445D002063526E005031DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QBRroQuickStartProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HongDi.Learning.AVAsset.QBRroQuickStartProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09445D012063526E005031DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QBRroQuickStartProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HongDi.Learning.AVAsset.QBRroQuickStartProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		09445D032063526E005031DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QBRroQuickStartProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HongDi.Learning.AVAsset.QBRroQuickStartProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QBRroQuickStartProject.app/QBRroQuickStartProject";
+			};
+			name = Debug;
+		};
+		09445D042063526E005031DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QBRroQuickStartProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HongDi.Learning.AVAsset.QBRroQuickStartProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QBRroQuickStartProject.app/QBRroQuickStartProject";
+			};
+			name = Release;
+		};
+		09445D062063526E005031DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QBRroQuickStartProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HongDi.Learning.AVAsset.QBRroQuickStartProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QBRroQuickStartProject;
+			};
+			name = Debug;
+		};
+		09445D072063526E005031DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QBRroQuickStartProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HongDi.Learning.AVAsset.QBRroQuickStartProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QBRroQuickStartProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09445CCE2063526D005031DC /* Build configuration list for PBXProject "QBRroQuickStartProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09445CFD2063526E005031DC /* Debug */,
+				09445CFE2063526E005031DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09445CFF2063526E005031DC /* Build configuration list for PBXNativeTarget "QBRroQuickStartProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09445D002063526E005031DC /* Debug */,
+				09445D012063526E005031DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09445D022063526E005031DC /* Build configuration list for PBXNativeTarget "QBRroQuickStartProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09445D032063526E005031DC /* Debug */,
+				09445D042063526E005031DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09445D052063526E005031DC /* Build configuration list for PBXNativeTarget "QBRroQuickStartProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09445D062063526E005031DC /* Debug */,
+				09445D072063526E005031DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09445CCB2063526D005031DC /* Project object */;
+}
