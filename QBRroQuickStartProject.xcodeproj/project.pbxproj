@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		09445CD82063526E005031DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09445CD72063526E005031DC /* AppDelegate.m */; };
-		09445CDB2063526E005031DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09445CDA2063526E005031DC /* ViewController.m */; };
-		09445CDE2063526E005031DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09445CDC2063526E005031DC /* Main.storyboard */; };
+		09445CDB2063526E005031DC /* QBRootUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09445CDA2063526E005031DC /* QBRootUIViewController.m */; };
 		09445CE02063526E005031DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09445CDF2063526E005031DC /* Assets.xcassets */; };
 		09445CE32063526E005031DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09445CE12063526E005031DC /* LaunchScreen.storyboard */; };
 		09445CE62063526E005031DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09445CE52063526E005031DC /* main.m */; };
 		09445CF02063526E005031DC /* QBRroQuickStartProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09445CEF2063526E005031DC /* QBRroQuickStartProjectTests.m */; };
 		09445CFB2063526E005031DC /* QBRroQuickStartProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09445CFA2063526E005031DC /* QBRroQuickStartProjectUITests.m */; };
+		0DD462CD0229B00189106D9E /* libPods-QBRroQuickStartProjectUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC5C6494B8FCF85AC9DE15DB /* libPods-QBRroQuickStartProjectUITests.a */; };
+		203A37C4C84C2147D7FA8E61 /* libPods-QBRroQuickStartProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BF827F9D784B63A30441963 /* libPods-QBRroQuickStartProjectTests.a */; };
+		3E03E7020148EB4941BFBF3F /* libPods-QBRroQuickStartProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69DA0F77A651B7311073BD4F /* libPods-QBRroQuickStartProject.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +40,8 @@
 		09445CD32063526E005031DC /* QBRroQuickStartProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QBRroQuickStartProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09445CD62063526E005031DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		09445CD72063526E005031DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		09445CD92063526E005031DC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		09445CDA2063526E005031DC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		09445CDD2063526E005031DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09445CD92063526E005031DC /* QBRootUIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QBRootUIViewController.h; sourceTree = "<group>"; };
+		09445CDA2063526E005031DC /* QBRootUIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QBRootUIViewController.m; sourceTree = "<group>"; };
 		09445CDF2063526E005031DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09445CE22063526E005031DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09445CE42063526E005031DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +52,15 @@
 		09445CF62063526E005031DC /* QBRroQuickStartProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QBRroQuickStartProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09445CFA2063526E005031DC /* QBRroQuickStartProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QBRroQuickStartProjectUITests.m; sourceTree = "<group>"; };
 		09445CFC2063526E005031DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BF827F9D784B63A30441963 /* libPods-QBRroQuickStartProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QBRroQuickStartProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52CB07BDDE401B896BD4A9DA /* Pods-QBRroQuickStartProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QBRroQuickStartProjectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QBRroQuickStartProjectUITests/Pods-QBRroQuickStartProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5351FE59C5952A70B5DFC856 /* Pods-QBRroQuickStartProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QBRroQuickStartProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-QBRroQuickStartProject/Pods-QBRroQuickStartProject.release.xcconfig"; sourceTree = "<group>"; };
+		69DA0F77A651B7311073BD4F /* libPods-QBRroQuickStartProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QBRroQuickStartProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C97EF579A4D176E91DA79B5 /* Pods-QBRroQuickStartProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QBRroQuickStartProjectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QBRroQuickStartProjectUITests/Pods-QBRroQuickStartProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		918A2C1577723565EF3FC63F /* Pods-QBRroQuickStartProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QBRroQuickStartProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QBRroQuickStartProjectTests/Pods-QBRroQuickStartProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC5C6494B8FCF85AC9DE15DB /* libPods-QBRroQuickStartProjectUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QBRroQuickStartProjectUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E15015472CC18CCD4B535240 /* Pods-QBRroQuickStartProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QBRroQuickStartProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QBRroQuickStartProject/Pods-QBRroQuickStartProject.debug.xcconfig"; sourceTree = "<group>"; };
+		E30CC71EBE395F7BDF7ED076 /* Pods-QBRroQuickStartProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QBRroQuickStartProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QBRroQuickStartProjectTests/Pods-QBRroQuickStartProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E03E7020148EB4941BFBF3F /* libPods-QBRroQuickStartProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				203A37C4C84C2147D7FA8E61 /* libPods-QBRroQuickStartProjectTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DD462CD0229B00189106D9E /* libPods-QBRroQuickStartProjectUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,9 +95,10 @@
 			isa = PBXGroup;
 			children = (
 				09445CD52063526E005031DC /* QBRroQuickStartProject */,
-				09445CEE2063526E005031DC /* QBRroQuickStartProjectTests */,
-				09445CF92063526E005031DC /* QBRroQuickStartProjectUITests */,
+				09445D08206381C4005031DC /* AssisFile */,
 				09445CD42063526E005031DC /* Products */,
+				24327552BB6533B3396B8025 /* Pods */,
+				A5C67E063035F9B94D0C1578 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +115,9 @@
 		09445CD52063526E005031DC /* QBRroQuickStartProject */ = {
 			isa = PBXGroup;
 			children = (
-				09445CD62063526E005031DC /* AppDelegate.h */,
-				09445CD72063526E005031DC /* AppDelegate.m */,
-				09445CD92063526E005031DC /* ViewController.h */,
-				09445CDA2063526E005031DC /* ViewController.m */,
-				09445CDC2063526E005031DC /* Main.storyboard */,
-				09445CDF2063526E005031DC /* Assets.xcassets */,
-				09445CE12063526E005031DC /* LaunchScreen.storyboard */,
-				09445CE42063526E005031DC /* Info.plist */,
-				09445CE52063526E005031DC /* main.m */,
+				09445D0920638228005031DC /* Delegate */,
+				09445CD92063526E005031DC /* QBRootUIViewController.h */,
+				09445CDA2063526E005031DC /* QBRootUIViewController.m */,
 			);
 			path = QBRroQuickStartProject;
 			sourceTree = "<group>";
@@ -132,6 +140,51 @@
 			path = QBRroQuickStartProjectUITests;
 			sourceTree = "<group>";
 		};
+		09445D08206381C4005031DC /* AssisFile */ = {
+			isa = PBXGroup;
+			children = (
+				09445CDF2063526E005031DC /* Assets.xcassets */,
+				09445CE12063526E005031DC /* LaunchScreen.storyboard */,
+				09445CE42063526E005031DC /* Info.plist */,
+				09445CE52063526E005031DC /* main.m */,
+				09445CEE2063526E005031DC /* QBRroQuickStartProjectTests */,
+				09445CF92063526E005031DC /* QBRroQuickStartProjectUITests */,
+			);
+			path = AssisFile;
+			sourceTree = "<group>";
+		};
+		09445D0920638228005031DC /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				09445CD62063526E005031DC /* AppDelegate.h */,
+				09445CD72063526E005031DC /* AppDelegate.m */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		24327552BB6533B3396B8025 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E15015472CC18CCD4B535240 /* Pods-QBRroQuickStartProject.debug.xcconfig */,
+				5351FE59C5952A70B5DFC856 /* Pods-QBRroQuickStartProject.release.xcconfig */,
+				918A2C1577723565EF3FC63F /* Pods-QBRroQuickStartProjectTests.debug.xcconfig */,
+				E30CC71EBE395F7BDF7ED076 /* Pods-QBRroQuickStartProjectTests.release.xcconfig */,
+				7C97EF579A4D176E91DA79B5 /* Pods-QBRroQuickStartProjectUITests.debug.xcconfig */,
+				52CB07BDDE401B896BD4A9DA /* Pods-QBRroQuickStartProjectUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A5C67E063035F9B94D0C1578 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69DA0F77A651B7311073BD4F /* libPods-QBRroQuickStartProject.a */,
+				2BF827F9D784B63A30441963 /* libPods-QBRroQuickStartProjectTests.a */,
+				CC5C6494B8FCF85AC9DE15DB /* libPods-QBRroQuickStartProjectUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 09445CFF2063526E005031DC /* Build configuration list for PBXNativeTarget "QBRroQuickStartProject" */;
 			buildPhases = (
+				F90ACE653A37CAC2F7A38C56 /* [CP] Check Pods Manifest.lock */,
 				09445CCF2063526E005031DC /* Sources */,
 				09445CD02063526E005031DC /* Frameworks */,
 				09445CD12063526E005031DC /* Resources */,
+				A22A8CBC2BD95387F08A3164 /* [CP] Embed Pods Frameworks */,
+				1137901D6B5B8A53DBDABBC9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,9 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 09445D022063526E005031DC /* Build configuration list for PBXNativeTarget "QBRroQuickStartProjectTests" */;
 			buildPhases = (
+				0981C046126965AAB3344390 /* [CP] Check Pods Manifest.lock */,
 				09445CE72063526E005031DC /* Sources */,
 				09445CE82063526E005031DC /* Frameworks */,
 				09445CE92063526E005031DC /* Resources */,
+				26CF146830AC80E58D515F9E /* [CP] Embed Pods Frameworks */,
+				5CBE548E08E5123E3895A18F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,9 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 09445D052063526E005031DC /* Build configuration list for PBXNativeTarget "QBRroQuickStartProjectUITests" */;
 			buildPhases = (
+				B58E4FB130A9FCB6746ACDF7 /* [CP] Check Pods Manifest.lock */,
 				09445CF22063526E005031DC /* Sources */,
 				09445CF32063526E005031DC /* Frameworks */,
 				09445CF42063526E005031DC /* Resources */,
+				2282783280DD136BFB7847BC /* [CP] Embed Pods Frameworks */,
+				C38A0CE1A439F9CD2CEF7874 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -240,7 +302,6 @@
 			files = (
 				09445CE32063526E005031DC /* LaunchScreen.storyboard in Resources */,
 				09445CE02063526E005031DC /* Assets.xcassets in Resources */,
-				09445CDE2063526E005031DC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,12 +321,159 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0981C046126965AAB3344390 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QBRroQuickStartProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1137901D6B5B8A53DBDABBC9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QBRroQuickStartProject/Pods-QBRroQuickStartProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2282783280DD136BFB7847BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QBRroQuickStartProjectUITests/Pods-QBRroQuickStartProjectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26CF146830AC80E58D515F9E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QBRroQuickStartProjectTests/Pods-QBRroQuickStartProjectTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CBE548E08E5123E3895A18F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QBRroQuickStartProjectTests/Pods-QBRroQuickStartProjectTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A22A8CBC2BD95387F08A3164 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QBRroQuickStartProject/Pods-QBRroQuickStartProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B58E4FB130A9FCB6746ACDF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QBRroQuickStartProjectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38A0CE1A439F9CD2CEF7874 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QBRroQuickStartProjectUITests/Pods-QBRroQuickStartProjectUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F90ACE653A37CAC2F7A38C56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QBRroQuickStartProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		09445CCF2063526E005031DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09445CDB2063526E005031DC /* ViewController.m in Sources */,
+				09445CDB2063526E005031DC /* QBRootUIViewController.m in Sources */,
 				09445CE62063526E005031DC /* main.m in Sources */,
 				09445CD82063526E005031DC /* AppDelegate.m in Sources */,
 			);
@@ -303,14 +511,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		09445CDC2063526E005031DC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				09445CDD2063526E005031DC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		09445CE12063526E005031DC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -428,10 +628,12 @@
 		};
 		09445D002063526E005031DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E15015472CC18CCD4B535240 /* Pods-QBRroQuickStartProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = QBRroQuickStartProject/Info.plist;
+				INFOPLIST_FILE = AssisFile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HongDi.Learning.AVAsset.QBRroQuickStartProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,10 +643,12 @@
 		};
 		09445D012063526E005031DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5351FE59C5952A70B5DFC856 /* Pods-QBRroQuickStartProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = QBRroQuickStartProject/Info.plist;
+				INFOPLIST_FILE = AssisFile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HongDi.Learning.AVAsset.QBRroQuickStartProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -454,10 +658,11 @@
 		};
 		09445D032063526E005031DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 918A2C1577723565EF3FC63F /* Pods-QBRroQuickStartProjectTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = QBRroQuickStartProjectTests/Info.plist;
+				INFOPLIST_FILE = AssisFile/QBRroQuickStartProjectTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HongDi.Learning.AVAsset.QBRroQuickStartProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -468,10 +673,11 @@
 		};
 		09445D042063526E005031DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E30CC71EBE395F7BDF7ED076 /* Pods-QBRroQuickStartProjectTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = QBRroQuickStartProjectTests/Info.plist;
+				INFOPLIST_FILE = AssisFile/QBRroQuickStartProjectTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HongDi.Learning.AVAsset.QBRroQuickStartProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -482,9 +688,10 @@
 		};
 		09445D062063526E005031DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C97EF579A4D176E91DA79B5 /* Pods-QBRroQuickStartProjectUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = QBRroQuickStartProjectUITests/Info.plist;
+				INFOPLIST_FILE = AssisFile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HongDi.Learning.AVAsset.QBRroQuickStartProjectUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -495,9 +702,10 @@
 		};
 		09445D072063526E005031DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52CB07BDDE401B896BD4A9DA /* Pods-QBRroQuickStartProjectUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = QBRroQuickStartProjectUITests/Info.plist;
+				INFOPLIST_FILE = AssisFile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HongDi.Learning.AVAsset.QBRroQuickStartProjectUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
