@@ -2,8 +2,8 @@
 //  main.m
 //  QBRroQuickStartProject
 //
-//  Created by HongDi Huang on 22/03/2018.
-//  Copyright © 2018 HongDi Huang. All rights reserved.
+//  Created by Lei Ni on 22/03/2018.
+//  Copyright © 2018 Lei Ni. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

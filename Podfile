@@ -11,6 +11,8 @@ target 'QBRroQuickStartProject' do
 	platform :ios, '8.0'
 	pod 'AFNetworking', '~> 3.0'
 	pod 'Masonry'
+  pod 'YYKit'
+  pod 'MJRefresh'
   target 'QBRroQuickStartProjectTests' do
     inherit! :search_paths
     # Pods for testing

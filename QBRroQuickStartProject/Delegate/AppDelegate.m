@@ -2,12 +2,14 @@
 //  AppDelegate.m
 //  QBRroQuickStartProject
 //
-//  Created by HongDi Huang on 22/03/2018.
-//  Copyright © 2018 HongDi Huang. All rights reserved.
+//  Created by Lei Ni on 22/03/2018.
+//  Copyright © 2018 Lei Ni. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "QBRootUIViewController.h"
+#import "LocationManager.h"
+#import "AppDelegate+init.h"
+
 @interface AppDelegate ()
 
 @end
@@ -17,14 +19,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    [self initUI];
+    [self initControllers];
+    [self initBusiness];
     return YES;
-}
-
-- (void)initUI{
-    QBRootUIViewController *rootVC = [QBRootUIViewController new];
-    [self.window setRootViewController:rootVC];
-    [self.window makeKeyAndVisible];
 }
 
 
